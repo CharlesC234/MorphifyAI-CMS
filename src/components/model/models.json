@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_model_models",
+  "info": {
+    "displayName": "Models"
+  },
+  "options": {},
+  "attributes": {
+    "model": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::model.model"
+    }
+  }
+}

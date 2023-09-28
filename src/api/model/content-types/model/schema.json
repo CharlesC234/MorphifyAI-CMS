@@ -4,7 +4,8 @@
   "info": {
     "singularName": "model",
     "pluralName": "models",
-    "displayName": "Model"
+    "displayName": "Model",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,34 +16,37 @@
       "type": "string"
     },
     "profile_pic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "free_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "paid_images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
