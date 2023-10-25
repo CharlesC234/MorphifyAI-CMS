@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patreon_users",
+  "info": {
+    "singularName": "patreon-user",
+    "pluralName": "patreon-users",
+    "displayName": "PatreonUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "First_Name": {
+      "type": "string"
+    },
+    "Last_Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Patreon_Access_Token": {
+      "type": "string"
+    },
+    "Premium": {
+      "type": "boolean"
+    },
+    "Generations": {
+      "type": "integer"
+    },
+    "models": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model.model"
+    }
+  }
+}

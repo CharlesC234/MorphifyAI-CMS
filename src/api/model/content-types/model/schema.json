@@ -47,6 +47,9 @@
         "videos",
         "audios"
       ]
+    },
+    "Premium": {
+      "type": "boolean"
     }
   }
 }
