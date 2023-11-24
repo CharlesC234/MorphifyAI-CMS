@@ -4,7 +4,8 @@
   "info": {
     "singularName": "patreon-user",
     "pluralName": "patreon-users",
-    "displayName": "PatreonUser"
+    "displayName": "PatreonUser",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -33,6 +34,9 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::model.model"
+    },
+    "pid": {
+      "type": "biginteger"
     }
   }
 }
