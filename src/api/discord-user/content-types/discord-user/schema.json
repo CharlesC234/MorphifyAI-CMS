@@ -1,33 +1,29 @@
 {
   "kind": "collectionType",
-  "collectionName": "patreon_users",
+  "collectionName": "discord_users",
   "info": {
-    "singularName": "patreon-user",
-    "pluralName": "patreon-users",
-    "displayName": "PatreonUser",
-    "description": ""
+    "singularName": "discord-user",
+    "pluralName": "discord-users",
+    "displayName": "DiscordUser"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "First_Name": {
-      "type": "string"
-    },
-    "Last_Name": {
+    "User_Name": {
       "type": "string"
     },
     "Email": {
       "type": "email"
     },
-    "Patreon_Access_Token": {
+    "Discord_Access_Token": {
       "type": "string"
     },
     "Premium": {
       "type": "boolean"
     },
-    "Generations": {
+    "Images": {
       "type": "integer"
     },
     "models": {
