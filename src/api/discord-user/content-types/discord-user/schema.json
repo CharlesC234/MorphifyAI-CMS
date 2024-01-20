@@ -4,7 +4,8 @@
   "info": {
     "singularName": "discord-user",
     "pluralName": "discord-users",
-    "displayName": "DiscordUser"
+    "displayName": "DiscordUser",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,7 +33,7 @@
       "target": "api::model.model"
     },
     "pid": {
-      "type": "biginteger"
+      "type": "uid"
     }
   }
 }
