@@ -24,7 +24,7 @@
     "Premium": {
       "type": "boolean"
     },
-    "Images": {
+    "Generations": {
       "type": "integer"
     },
     "models": {
