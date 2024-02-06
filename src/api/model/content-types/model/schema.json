@@ -48,8 +48,11 @@
         "audios"
       ]
     },
-    "Premium": {
+    "Public": {
       "type": "boolean"
+    },
+    "pid": {
+      "type": "uid"
     }
   }
 }
