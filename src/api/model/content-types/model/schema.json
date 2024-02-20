@@ -52,7 +52,7 @@
       "type": "boolean"
     },
     "pid": {
-      "type": "uid"
+      "type": "text"
     }
   }
 }

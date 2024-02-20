@@ -4,25 +4,27 @@
   "info": {
     "singularName": "zip",
     "pluralName": "zips",
-    "displayName": "zip"
+    "displayName": "zip",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "pid": {
-      "type": "uid"
-    },
     "zip": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "pid": {
+      "type": "text"
     }
   }
 }
