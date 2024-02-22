@@ -53,6 +53,19 @@
     },
     "pid": {
       "type": "text"
+    },
+    "reference_images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "lora_url": {
+      "type": "string"
     }
   }
 }
