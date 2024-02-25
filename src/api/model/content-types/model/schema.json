@@ -54,7 +54,10 @@
     "pid": {
       "type": "text"
     },
-    "reference_images": {
+    "lora": {
+      "type": "string"
+    },
+    "zip": {
       "allowedTypes": [
         "images",
         "files",
@@ -63,9 +66,6 @@
       ],
       "type": "media",
       "multiple": true
-    },
-    "lora_url": {
-      "type": "string"
     }
   }
 }
